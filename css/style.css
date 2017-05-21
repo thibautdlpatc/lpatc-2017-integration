@@ -1,0 +1,478 @@
+body{
+	}
+
+header{
+	background-position: center center;	
+	background-size: cover;	
+	height: 200px;
+}
+
+.top{
+	background:rgba(0, 0, 0, 0.6);
+	
+}
+
+.wrapper-services{
+	background: #FFF;
+	margin-top: -20px;
+	margin-bottom: 30px;
+}
+
+.services{
+
+	
+}
+
+/* .nopadding{
+padding:0px;
+} */
+
+/* .services h2	{
+	background:rgba(0, 0, 0, 0.6);
+	color:#FFF;
+	text-transform: uppercase;
+	font-size: 22px;
+	padding: 5px;
+	} */
+	
+/* .intro{
+	padding:10px;
+	background-color:#41415c;
+	color:#FFF;
+} */
+	
+
+.ggmap iframe{width:100%;
+height: 300px;}
+
+.rappel{height:300px;
+background:#FFF;
+	color:black;
+	font-size: 14px;
+	padding: 5px;
+	font-family:arial;
+	text-align: center;
+}
+
+.rappel h2{background:#41415c; color:#FFF;
+	padding-left: 120px;}
+
+.offres{
+    background:#FFF;
+	color:black;
+	font-family:arial;
+	font-size: 14px;
+	padding: 5px;
+	text-align: center;
+}
+
+.menu{
+	background:#359ceb;
+	color: white;
+	font-size:17px;
+	font-family:Impact;}
+
+footer{
+  width: 1280px;
+  height: 308px;
+  background-color: #34414a;
+  }
+	
+.dropdown-submenu
+{
+color:#1D38FC
+position:relative;}
+
+.dropdown-submenu>.dropdown-menu
+{top:0;
+left:100%;
+margin-top:-6px;
+margin-left:-1px;
+-webkit-border-radius:0 6px 6px 6px;
+-moz-border-radius:0 6px 6px 6px;
+border-radius:0 6px 6px 6px;}
+
+.dropdown-submenu:hover>.dropdown-menu
+{display:block;}
+
+.dropdown-submenu>a:after
+{display:block;content:" ";
+float:right;
+width:0;
+height:0;
+border-color:transparent;
+border-style:solid;
+border-width:5px 0 5px 5px;
+border-left-color:#cccccc;
+margin-top:5px;
+margin-right:-10px;}
+
+.dropdown-submenu.pull-left
+{float:none;}
+
+.dropdown-submenu.pull-left>.dropdown-menu
+{left:-100%;
+margin-left:10px;
+-webkit-border-radius:6px 0 6px 6px;
+-moz-border-radius:6px 0 6px 6px;
+border-radius:6px 0 6px 6px;}
+
+.blue{color:#1D38FC}
+.green{color:#0EC929}
+.red{color:#FF0000}
+.orange{color:#ffe100}
+
+
+/* Couleur des titres affichés dans la barre */
+.navbar.navbar-brand {
+color: #F8F8F8 ;
+}
+/* Couleur utilisée lors du passage de la souris sur un titre de la barre */
+.navbar .navbar-brand:hover,
+.navbar.navbar-brand:focus {
+color: #fcdea0;
+}
+/* Couleur utilisée pour les liens */
+.navbar .navbar-nav > li > a {
+color: #fcdea0;
+}
+
+
+.navbar {
+ min-height: 70px;
+ padding-top: 10px;
+ margin-bottom: 0px;
+ position: fixed;
+top: 0;
+left: 0;
+z-index: 10;
+opacity:0.2;
+}
+            
+.navbar-brand {
+ font-family: 'OpenSans';
+ font-weight: 900;
+}
+            
+.navbar-header .navbar-brand {
+ color: #384452;
+}
+            
+.navbar-default .navbar-nav > li > a {
+ color: #34414a;
+ font-weight: 800;
+ font-size: 16px;
+}
+            
+.navbar-default .navbar-nav > li > a:hover {
+ color: rgba(172, 186, 191, 0.82);
+}
+            
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+ color: rgba(172, 186, 191, 0.82);
+ background: transparent;
+}
+            
+.navbar-default {
+ background-color: #384452;
+ border-color: transparent;
+ opacity:0.8;
+}
+ 
+ 
+.rue-du-Vieux-Marc{
+width: 468px;
+  height: 33px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.32;
+  color: #34414a;
+  margin-left: 260px;
+  
+}
+
+.France-Strasbour {
+  width: 139px;
+  height: 19px;
+  font-family: OpenSans;
+  font-size: 14px;
+  color: #be6152;
+  color: var(--adobe);
+}
+
+.France-Strasbour .text-style-1 {
+  color: #34414a;
+  color: var(--charcoal-grey);
+}
+
+.Lorem-ipsum-dolor {
+  width: 485px;
+  height: 168px;
+  font-family: OpenSans;
+  font-size: 19px;
+  line-height: 1.5;
+  text-align: left;
+  color: #222a30;
+  color: var(--dark);
+  margin-left: 800px;
+   margin-top: 122px;
+}
+
+.Lorem-ipsum-dolor-si {
+  width: 485px;
+  height: 168px;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #222a30;
+  color: var(--dark);
+}
+
+.Dcouvrir-cette-fich {
+  width: 147px;
+  height: 24px;
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #a65447;
+  color: var(--earth);
+}
+
+.recherchez {
+  width: 844px;
+  height: 30px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: #ebebeb;
+}
+
+.barre{
+ width: 626px;
+  height: 47px;
+  background-color: #fafafa;
+  background-color: var(--white-three);
+  border: solid 2px #d96e5d;
+}
+
+.Archi-Wiki-cest-qu {
+  width: 275px;
+  height: 33px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.32;
+  color: #34414a;
+  color: var(--charcoal-grey);
+}
+
+.Archi-Wiki-est-un-si {
+  width: 456px;
+  height: 270px;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222a30;
+  color: var(--dark);
+}
+
+.Pour-contribuer-ins {
+  width: 210px;
+  height: 19px;
+  font-family: OpenSans;
+  font-size: 14px;
+  color: #a65447;
+  color: var(--earth);
+}
+
+.Dernire-actualit-d {
+  width: 516px;
+  height: 66px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.32;
+  color: #34414a;
+  color: var(--charcoal-grey);
+}
+
+.illustration200 {
+  width: 248px;
+  height: 282px;
+  
+}
+
+.Ce-qui-nous-intress {
+  width: 456px;
+  height: 192px;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #222a30;
+
+}
+
+.Lire-la-suite{
+  width: 87px;
+  height: 24px;
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #a65447;
+  color: var(--earth);
+}
+
+.Dernires-modificati {
+  width: 377px;
+  height: 40px;
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: bold;
+  line-height: 1.29;
+  color: #34414a;
+  color: var(--charcoal-grey);
+}
+
+.Derniers-commentaire {
+  width: 369px;
+  height: 40px;
+  font-family: Montserrat;
+  font-size: 31px;
+  font-weight: bold;
+  line-height: 1.29;
+  color: #34414a;
+  color: var(--charcoal-grey);
+}
+
+.photos--2016-06-12-1179181-grand {
+  width: 380px;
+  height: 240px;
+}
+
+.Search-Large-block {
+  width: 1280px;
+  height: 167px;
+  background-color: #a65447;
+}
+
+.Lorem-ipsum-dolor-si {
+  width: 376px;
+  height: 168px;
+  font-family: OpenSans;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222a30;
+  color: var(--dark);
+}
+
+.-rue-Aubry-et-Rau {
+  width: 262px;
+  height: 33px;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.32;
+  color: #34414a;
+  color: var(--charcoal-grey);
+}
+
+.Consulter-la-fiche {
+  width: 125px;
+  height: 24px;
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #a65447;
+  color: var(--earth);
+}
+
+.Consulter-le-comment {
+  width: 181px;
+  height: 24px;
+  font-family: OpenSans;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
+  color: #a65447;
+  color: var(--earth);
+}
+
+.toutes-les-dernires {
+  width: 390px;
+  height: 40px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #34414a;
+  color: var(--charcoal-grey);
+}
+
+.tous-les-derniers-cor{
+  width: 390px;
+  height: 40px;
+  font-family: OpenSans;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  color: #34414a;
+  color: var(--charcoal-grey);
+}
+
+.Logo-footer {
+  width: 189px;
+  height: 59px;
+}
+
+.archiwiki-est {
+  width: 408px;
+  height: 21px;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.31;
+  text-align: center;
+  color: #fafafa;
+}
+
+.Prvoir-logo-des-par {
+  width: 407px;
+  height: 19px;
+  font-family: FiraMono;
+  font-size: 16px;
+  text-align: center;
+  color: #fafafa;
+}
+
+.Rectangle-31 {
+  width: 390px;
+  height: 48px;
+  border: solid 2px rgba(70, 87, 99, 0.65);
+}
+
+.Rectangle-34 {
+  width: 211px;
+  height: 55px;
+  border: solid 2px #fafafa;
+    margin-left: 800px;
+}
+
+.archi-strasbourg {
+  width: 142px;
+  height: 22px;
+  font-family: OpenSans;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fafafa;
+    margin-left: 800px;
+  
+}
+
+
